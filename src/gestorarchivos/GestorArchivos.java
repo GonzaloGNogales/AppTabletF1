@@ -13,11 +13,9 @@ public class GestorArchivos {
 
     public static void main(String[] args) {
         Inicio ini = new Inicio();
-        ini.setLocationRelativeTo(null);
         ini.setTitle("Inicio");
         ini.setVisible(true);
-        
-        
+        ini.setLocationRelativeTo(null);
     }
     
 }
