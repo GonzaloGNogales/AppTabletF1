@@ -173,7 +173,8 @@ public class Subir extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void aceptarSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aceptarSActionPerformed
-        dispose();
+        Error.getObj().setVisible(true);
+        Error.getObj().setLocationRelativeTo(null);
     }//GEN-LAST:event_aceptarSActionPerformed
 
     private void nombreSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombreSActionPerformed
