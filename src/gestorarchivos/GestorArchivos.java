@@ -11,11 +11,9 @@ package gestorarchivos;
  */
 public class GestorArchivos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Inicio ini = new Inicio();
+        ini.setLocationRelativeTo(null);
         ini.setTitle("Inicio");
         ini.setVisible(true);
         
