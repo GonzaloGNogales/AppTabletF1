@@ -144,6 +144,11 @@ public class Buscar extends javax.swing.JFrame {
 
         opcionesB.setText("+");
         opcionesB.setPreferredSize(new java.awt.Dimension(66, 50));
+        opcionesB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                opcionesBActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -231,6 +236,12 @@ public class Buscar extends javax.swing.JFrame {
     private void buscarBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarBActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_buscarBActionPerformed
+
+    private void opcionesBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_opcionesBActionPerformed
+        Opciones.getObj().setTitle("Opciones");
+        Opciones.getObj().setVisible(true);
+        Opciones.getObj().setLocationRelativeTo(null);
+    }//GEN-LAST:event_opcionesBActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton aceptarB;
